@@ -16,5 +16,5 @@ app.on("ready", () => {
     return { action: "allow" };
   });
 
-  win.webContents.openDevTools();
+  //win.webContents.openDevTools();
 });
