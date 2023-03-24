@@ -1,7 +1,3 @@
-# notion-snap
+# notion-rpm
 
-A snap of [Notion](https://notion.so)
-
-```
-snap install notion-snap
-```
+A rpm package of [Notion](https://notion.so)
