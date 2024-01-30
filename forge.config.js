@@ -14,7 +14,12 @@ module.exports = {
 			name: '@electron-forge/maker-rpm',
 			config: {
 				options: {
+					name: 'notion',
 					icon: './build/icons/icon.png',
+					categories: ['Office'],
+					mimeType: ['x-scheme-handler/notion'],
+					execArguments: ['--ozone-platform-hint=auto'],
+					homepage: 'https://www.notion.so',
 				},
 			},
 		},
